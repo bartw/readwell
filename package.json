@@ -1,0 +1,33 @@
+{
+  "name": "readwell",
+  "version": "0.0.1",
+  "description": "This repo is licensed under the [MIT License](LICENSE).",
+  "main": "app.tsx",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-serve ./webpack.config.js --content public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/readwell.git"
+  },
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartw/readwell/issues"
+  },
+  "homepage": "https://github.com/bartw/readwell#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1",
+    "webpack-serve": "^2.0.2"
+  }
+}
