@@ -1,4 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import Page from "./page/Page";
 
-ReactDOM.render(<div>is now Reactified!</div>, document.getElementById("root"));
+ReactDOM.render(<Page />, document.getElementById("root"));
